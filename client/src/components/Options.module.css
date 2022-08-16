@@ -1,0 +1,26 @@
+.flexi{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+select{
+    margin: 1rem;
+    padding: 1px 18px;
+    border: none;
+    outline: none;
+}
+
+.crea button{
+    color: rgb(22, 17, 17);
+    background-color: beige;
+    padding: 8px;
+   position: absolute;
+   right: 5rem;
+}
+
+.imgs{
+    width: 80px;
+    position: absolute;
+    left: 2rem;
+}

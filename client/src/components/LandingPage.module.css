@@ -1,0 +1,33 @@
+.landing{
+    background-image: url(https://www.morelandobgyn.com/hubfs/Imported_Blog_Media/GettyImages-854725402-1.jpg);
+    height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button{
+     
+        color:rgb(13, 13, 13);
+        height: 100px;
+        width: 100px;
+        background-color: #7b636341;
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 30px;
+       
+    
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:#e89ea4 ;
+    font-weight: 1200;
+    font-size: 40px;
+}
+
+.h1{  font-size: 20px;
+    text-align: center;
+}

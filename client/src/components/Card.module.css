@@ -1,0 +1,67 @@
+.diets{
+    background:  rgb(221, 234, 106);
+    height: 90px;
+    border-radius: 19px;
+    padding: 2px ;
+    font-family: cursive;
+    color: #0c0733;
+}
+
+
+.score{
+    font-size: 14px;
+    color: withe;
+    color:rgb(0, 0, 0);
+}
+.name{
+    font-family: cursive;
+    margin: 30px;
+    color: wheat;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    align-items: center;
+    height: 23px;
+}
+
+.Link {
+    text-decoration: none;
+  }
+
+.container{
+    list-style: none;
+    border: solid;
+    border-radius: 20px;
+    border-color: #c04848;
+    overflow: hidden;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: #e8a618;
+    color: azure;
+    text-shadow: 1px 1px #e2aed31b;
+    font-size: 20px;
+    
+}
+
+.container:hover {
+    
+    background: #136b7f;
+    color: azure;
+  
+    text-shadow: 1px 1px #a9a075;
+    cursor:pointer
+  }
+
+.image{
+    background-size: cover;
+}

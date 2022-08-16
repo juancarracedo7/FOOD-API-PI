@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 2rem
+
+}
+
+.form input{
+    border: none;
+    outline: none;
+    padding: 7px 22px;
+}
+
+.Button {
+    background-color: #26A69A;
+    color: #fff;
+    cursor: pointer;
+    /* border-radius: 22px; */
+    margin-top: 1rem;
+    padding: 3px;
+   
+    
+}
+
+.Button:hover {
+    background-color: #0f6d64;
+}
