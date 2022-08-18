@@ -1,5 +1,5 @@
 .landing{
-    background-image: url(https://www.morelandobgyn.com/hubfs/Imported_Blog_Media/GettyImages-854725402-1.jpg);
+    background-image: url(https://aprende.com/wp-content/uploads/2020/11/escalfado-o-porche.gif);
     height: 100vh;
     background-size: 100vw 100vh;
     display: flex;
@@ -11,10 +11,10 @@
 .button{
      
         color:rgb(13, 13, 13);
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         background-color: #7b636341;
-        border-radius: 100px;
+        border-radius: 200px;
         font-weight: 400;
         font-size: 30px;
        
@@ -23,11 +23,10 @@
 
 .button:hover{
     cursor: pointer;
-    background-color:#e89ea4 ;
-    font-weight: 1200;
-    font-size: 40px;
+    background-color:#fdeff0 ;
 }
 
-.h1{  font-size: 20px;
+.h1{  font-size: 80px;
     text-align: center;
 }
+

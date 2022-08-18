@@ -9,14 +9,17 @@ select{
     padding: 1px 18px;
     border: none;
     outline: none;
+    background-color: orange;
 }
 
+
 .crea button{
-    color: rgb(22, 17, 17);
-    background-color: beige;
+    color: white;
+    background-color: orange;
     padding: 8px;
    position: absolute;
    right: 5rem;
+   cursor: pointer;
 }
 
 .imgs{

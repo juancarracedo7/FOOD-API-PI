@@ -9,7 +9,7 @@ export default function LandingPage() {
         <div className={styles.flex}>
          <Link to="/home">
              <button className={styles.button}>
-                 <span className={styles.h1}>Api Food</span>
+                 <span className={styles.h1}>🍝</span>
              </button>
              </Link>
         </div>

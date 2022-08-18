@@ -27,6 +27,6 @@
 
 .button:hover{
     cursor: pointer;
-    background-color: #9b90ff;
+    background-color: orange;
     font-size: 30px;
 }
