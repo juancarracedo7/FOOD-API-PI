@@ -18,7 +18,7 @@ export const DELETE = "DELETE";
 export const getRecipes = () => {
   return async function (dispatch) {
     try {
-      let json = await axios.get(`http://localhost:3001/recipe`);
+      let json = await axios.get(`/recipe`);
       return dispatch({
         type: GET_RECIPE,
         payload: json.data,
@@ -41,7 +41,7 @@ export function cleanData() {
 export const getByName = (name) => {
   return async function (dispatch) {
     try {
-      let json = await axios.get(`http://localhost:3001/recipe?name=${name}`);
+      let json = await axios.get(`/recipe?name=${name}`);
       return dispatch({
         type: GET_BY_NAME,
         payload: json.data,
@@ -56,7 +56,7 @@ export const getByName = (name) => {
 export const types = () => {
   return async function (dispatch) {
    try {
-    let json = await axios.get("http://localhost:3001/types");
+    let json = await axios.get("/types");
       //  console.log(json)
     return dispatch({
       type: GET_TYPES,
@@ -100,7 +100,7 @@ export const getCreates = (payload) => {
 export const getDetail = (id) => {
   return async function (dispatch) {
     try {
-      const res = await axios.get(`http://localhost:3001/recipe/${id}`);
+      const res = await axios.get(`/recipe/${id}`);
       // console.log(res.data)
       return dispatch({
         type: GET_DIET,
@@ -116,7 +116,7 @@ export const postCreate = (payload) => {
   return async function (dispatch) {
     try {
         const json = await axios.post(
-            "http://localhost:3001/recipe/create",
+            "/recipe/create",
             payload
           );
       
@@ -130,7 +130,7 @@ export const postCreate = (payload) => {
 
 export const Remove = (id)=>{
   return (dispatch) => {
-     axios.delete(`http://localhost:3001/recipe/delete/${id}`).then((remove) => {
+     axios.delete(`/recipe/delete/${id}`).then((remove) => {
         dispatch({
           type:DELETE,
           payload: remove.id
